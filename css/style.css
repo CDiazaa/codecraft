@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    padding-bottom: 1rem;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem .5rem 2rem;
+}
+
+.logo {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.craft {
+    width: 250px;
+    padding: 20px;
+}
+
+.textcenter {
+    font-size: large;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    padding: 1rem;
+}
+
+.pagesup {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins';
+}
+
+.pagesdown {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.footer {
+    width: auto;
+    background-color: #131928;
+    padding: 40px;
+}
+
+.linkfoot {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 20px;
+    padding: 1rem;
+    font-size: 12px;
+}
+
+.vertbar {
+    color: white;
+    text-shadow: 0px 2px 4px black;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.iconsocial {
+    color: white;
+    list-style-type: none;
+}
+
+.linksocial {
+    text-decoration: none;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    gap: 20px;
+}
+
+.barraimagen {
+    width: 100%;
+}
+
+.who {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.codecraft {
+    justify-content: center;
+    text-align: left;
+    max-width: fit-content;
+    padding: 25px 300px 25px 200px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+}
+
+.art {
+    display: flex;
+    padding: 3rem;
+}
+
+.art-left,
+.art-right {
+    flex: 1;
+}
+
+.imgdoble {
+    max-width: 80%;
+}
+
+.name-title {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 1rem 1rem 0;
+}
+
+.descripcion {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 10rem 1rem 0;
+    line-height: 25px;
+}
+
+.need {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 85px;
+    border: .5px solid black;
+}
+
+.text {
+    padding: 10px;
+}
+
+.textinfo {
+    padding: 50px;
+    font-size: 18px;
+}
+
+.infomaps {
+    display: flex;
+    padding: 3rem;
+    justify-content: space-around;
+}
+
+.infomapas-left,
+.infomapas-right {
+    flex: 1;
+}
+
+.contact {
+    display: flex;
+    padding: 0 20rem 2rem 20rem;
+}
+
+.contact-left,
+.contact-right {
+    flex: 1;
+}
+
+.cont,
+.mens {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#nombre,
+#email,
+#asunto,
+#mensaje {
+    background-color: transparent;
+}
+
+.send {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: .5rem;
+    display: inline-block;
+    border-radius: .5rem;
+}
+
+.videos {
+    display: inline-block;
+    padding: 60px;
+    margin-left: 50px;
+}
+
+.artstation {
+    padding: 20px;
+    margin-left: 200px;
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+}
