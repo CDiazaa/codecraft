@@ -23,25 +23,39 @@ img {
     border-radius: 50%;
 }
 
-.container {
-    position: relative;
-    text-align: center;
+.maincontainer {
+    background-image: url(../img/tuanz.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    display: grid;
+}
+
+.textcenter {
+    padding: 1rem;
+    margin: 4rem;
+    width: auto;
+    border: 3px solid white;
+    place-self: center ;
     color: white;
+    display: grid;
 }
 
 .craft {
     width: 250px;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
+    place-self: center;
+    font-size: 32px;
 }
 
-.textcenter {
-    font-size: large;
-    width: 300px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 30px;
+.craftp {
+    font-size: 16px;
+    text-align: center;
+    padding: 1rem;
+    place-self: center;
+    justify-content: center;
+    width: 400px;
 }
 
 .menu {
