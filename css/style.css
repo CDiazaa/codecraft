@@ -132,7 +132,7 @@ img {
 
 .codecraft {
     justify-content: center;
-    text-align: left;
+    text-align: justify;
     max-width: fit-content;
     padding: 25px 300px 25px 200px;
     font-family: 'Montserrat', sans-serif;
@@ -259,5 +259,9 @@ img {
 .mapa{
     width: 100%;
     padding: 1rem 0 0 0;
+}
+
+.github{
+    color: black;
 }
 
