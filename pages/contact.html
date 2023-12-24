@@ -7,6 +7,9 @@
     <title>Contacto</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -40,6 +43,10 @@
         <div class="maindetails">
             <img class="barraimagen" src="../img/jannismount.jpg" alt="templo"
                 style="width: 100%; height: 337px; object-fit: cover;">
+                <div>
+                    <h1 class="who">Contáctanos</h1>
+                </div>
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15086.311132829733!2d-98.2210115370233!3d19.038317891691083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc0bd5ebc7a3b%3A0x48a6461de494ad95!2sHeroica%20Puebla%20de%20Zaragoza%2C%20Pue.!5e0!3m2!1ses!2smx!4v1703399582821!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             <section class="infomaps">
                 <div class="infomaps-left">
@@ -51,37 +58,20 @@
                     </div>
                 </div>
             </section>
+            <div class="bforms">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Dirección email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
 
-            <form>
-                <section class="contact">
-                    <div class="contact-left">
-                        <div class="cont">
-                            <label for="nombre">NOMBRE</label>
-                            <br>
-                            <input size="40" type="text" id="nombre" required>
-                        </div>
-                        <div class="cont">
-                            <label for="email">E-MAIL</label>
-                            <br>
-                            <input size="40" type="email" id="email" required>
-                        </div>
-                        <div class="cont">
-                            <label for="asunto">ASUNTO</label>
-                            <br>
-                            <input size="40" type="text" id="nombre" required>
-                        </div>
-                    </div>
-                    <div class="contact-rigth">
-                        <div class="mens">
-                            <label for="mensaje">MENSAJE</label>
-                            <br>
-                            <textarea cols="40" rows="10" id="mensaje" required></textarea>
-                            <a class="send" href="#">Enviar</a>
-                        </div>
-                    </div>
-                </section>
-            </form>
-        </div>
     </main>
 
     <footer class="footer">
@@ -102,7 +92,9 @@
             <p class="copyright">2023 CodeCraft, Inc.</p>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
