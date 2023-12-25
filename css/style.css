@@ -279,3 +279,10 @@ img {
 .slider{
     padding: 25px 300px 25px 200px;
 }
+
+.grids{
+    /*height: 100vh;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
