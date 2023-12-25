@@ -7,6 +7,9 @@
     <title>Galería</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -41,7 +44,7 @@
             style="width: 100%; height: 337px; object-fit: cover;">
 
         <div>
-            <h1 class="who">Sección de Recursos Creativos: Tutoriales y Galería Artística</h1>
+            <h1 class="who">Galería Artística y Tutoriales</h1>
             <p class="codecraft">
                 Bienvenido a nuestra sección dedicada a inspirar y potenciar tu creatividad. Aquí encontrarás una
                 colección cuidadosamente seleccionada de videos tutoriales y enlaces a perfiles destacados en
@@ -50,16 +53,43 @@
                 explorar nuevas ideas en el ámbito creativo.
             </p>
         </div>
-        <div class="link-station">
-
-            <a class="artstation" href="https://www.artstation.com/grassetti" target="_blank">Rafael Grassetti</a><i
-                class="bi bi-link"></i>
-            <a class="artstation" href="https://www.artstation.com/marcologue" target="_blank">Marco Pouffle</a><i
-                class="bi bi-link"></i>
-            <a class="artstation" href="https://www.artstation.com/maryia_panfilova" target="_blank">Maria
-                Panfilova</a><i class="bi bi-link"></i>
-            <a class="artstation" href="https://www.artstation.com/danibel" target="_blank">Daniel Bel</a><i
-                class="bi bi-link"></i>
+        <div class="slider">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/obelix.jpg" class="d-block w-100" alt="obelix">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/pokerqueen.jpg" class="d-block w-100" alt="pokerqueen">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/War.jpg" class="d-block w-100" alt="Knight">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/catgirl.jpg" class="d-block w-100" alt="catgirl">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
 
         </div>
         <div class="videos">
@@ -106,7 +136,9 @@
             <p class="copyright">2023 CodeCraft, Inc.</p>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
