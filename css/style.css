@@ -36,7 +36,7 @@ img {
     margin: 4rem;
     width: auto;
     border: 3px solid white;
-    place-self: center ;
+    place-self: center;
     color: white;
     display: grid;
 }
@@ -134,7 +134,7 @@ img {
     justify-content: center;
     text-align: justify;
     max-width: fit-content;
-    padding: 25px 300px 25px 200px;
+    padding: 25px 200px 25px 200px;
     font-family: 'Montserrat', sans-serif;
     line-height: 30px;
 }
@@ -153,14 +153,14 @@ img {
     max-width: 80%;
 }
 
-.footpage{
+.footpage {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     padding: 15px;
     font-weight: normal;
 }
 
-.artprofile{
+.artprofile {
     color: black;
 }
 
@@ -186,7 +186,7 @@ img {
     background-image: url(../img/NamiLuffyZoro.png);
     background-size: cover;
     background-position: center;
-    
+
 }
 
 .text {
@@ -261,28 +261,52 @@ img {
     text-decoration: none;
     color: white;
 }
+
 .bforms {
     max-width: 600px;
     margin: 0 auto;
     padding-inline: 1.5rem;
     padding-bottom: 3rem;
 }
-.mapa{
+
+.mapa {
     width: 100%;
     padding: 1rem 0 0 0;
 }
 
-.github{
+.github {
     color: black;
 }
 
-.slider{
-    padding: 25px 300px 25px 200px;
+.slider {
+    padding: 25px 200px 25px 200px;
 }
 
-.grids{
-    /*height: 100vh;*/
+.grids {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .codecraft {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .footpage {
+        padding-left: 0;
+    }
+
+    .slider {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .grids {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
 }
