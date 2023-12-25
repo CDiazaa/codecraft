@@ -141,7 +141,7 @@ img {
 
 .art {
     display: flex;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .art-left,
@@ -151,6 +151,17 @@ img {
 
 .imgdoble {
     max-width: 80%;
+}
+
+.footpage{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: normal;
+}
+
+.artprofile{
+    color: black;
 }
 
 .name-title {
