@@ -322,7 +322,7 @@ img {
     .art {
         display: grid;
         padding: 0;
-        padding-top: 1rem;
+        padding-top: 1.5rem;
     }
 
     .art-left,
