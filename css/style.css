@@ -296,7 +296,7 @@ img {
         padding-left: 100px;
         padding-right: 100px;
     }
-    
+
     .footpage {
         padding-left: 0;
     }
@@ -305,8 +305,44 @@ img {
         padding-left: 100px;
         padding-right: 100px;
     }
+
     .grids {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
+}
+
+@media (max-width: 576px) {
+
+    .codecraft {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .art {
+        display: grid;
+        padding: 0;
+        padding-top: 1rem;
+    }
+
+    .art-left,
+    .art-right {
+        text-align: center;
+    }
+
+    .slider {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .grids {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .videos {
+        padding: 10px;
+        margin: 0;
+    }
+
 }
