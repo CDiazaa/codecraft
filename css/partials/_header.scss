@@ -1,0 +1,46 @@
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+
+    .logo {
+        cursor: pointer;
+
+        .ilogo {
+            border-radius: 50%;
+            width: auto;
+            transition: all 0.3s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .menu {
+        text-align: center;
+        padding: 20px;
+
+        .ulink {
+            display: inline-block;
+            padding: 0 20px;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .pagesup {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-family: 'Poppins';
+
+            &:hover {
+                color: #ffbc0e;
+            }
+        }
+    }
+}

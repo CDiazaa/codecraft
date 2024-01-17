@@ -1,0 +1,16 @@
+.slider {
+    padding: 25px 200px 100px 200px;
+}
+
+.contenedorvideos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}

@@ -1,0 +1,50 @@
+.flexmapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+
+    .mapa {
+        width: 100%;
+    }
+}
+
+.infomaps {
+    display: flex;
+    padding: 3rem;
+    justify-content: space-around;
+
+    .infomapas-left {
+        flex: 1;
+    }
+}
+
+
+.need {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 85px;
+    border: .5px solid black;
+    background-image: url(../img/NamiLuffyZoro.png);
+    background-size: cover;
+    background-position: center;
+
+    .text {
+        padding: 10px 0 10px 0;
+        margin: 10px;
+    }
+    
+    .textinfo {
+        padding: 50px;
+        font-size: 18px;
+    }
+}
+
+.bforms {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-inline: 1.5rem;
+    padding-bottom: 3rem;
+}

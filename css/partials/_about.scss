@@ -1,0 +1,32 @@
+.barraimagen {
+    width: 100%;
+}
+
+.who {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.codecraft {
+    justify-content: center;
+    text-align: justify;
+    max-width: fit-content;
+    padding: 25px 200px 25px 200px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    font-size: 22px;
+
+    .github {
+        color: black;
+    }
+}
+
+.mainframestore {
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px 50px 50px;
+}

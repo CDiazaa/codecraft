@@ -1,0 +1,25 @@
+.art {
+    display: flex;
+    padding: 1rem;
+
+    .art-left,
+    .art-right {
+        flex: 1;
+
+        .imgdoble {
+            max-width: 80%;
+        }
+
+        .footpage {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 22px;
+            padding: 15px;
+            font-weight: normal;
+            width: fit-content;
+
+            .artprofile {
+                color: black;
+            }
+        }
+    }
+}
