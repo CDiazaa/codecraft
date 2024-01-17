@@ -175,7 +175,8 @@ background-color: #131928;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .codecraft {
@@ -298,10 +299,11 @@ background-color: #131928;
     border-radius: .5rem;
 }
 
-.videos {
-    display: inline-block;
-    padding: 60px;
-    margin-left: 50px;
+.contenedorvideos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 50px;
 }
 
 .artstation {
@@ -324,9 +326,15 @@ background-color: #131928;
     padding-bottom: 3rem;
 }
 
+.flexmapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+}
+
 .mapa {
     width: 100%;
-    padding: 1rem 0 0 0;
 }
 
 .github {
@@ -334,7 +342,7 @@ background-color: #131928;
 }
 
 .slider {
-    padding: 25px 200px 25px 200px;
+    padding: 25px 200px 100px 200px;
 }
 
 .grids {
