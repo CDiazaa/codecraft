@@ -353,7 +353,12 @@ background-color: #131928;
     grid-template-rows: 1fr 1fr;
 }
 
+@media (max-width: 1024px) {
 
+    .innerdisplay {
+        transform: translate(-50%,-180%);
+    }
+}
 
 @media (max-width: 768px) {
 
