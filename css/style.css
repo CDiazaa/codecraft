@@ -43,7 +43,7 @@ img {
 .pagesup {
     text-decoration: none;
     color: black;
-    font-size: 1.2rem;
+    font-size: 20px;
     font-family: 'Poppins';
 }
 
@@ -177,6 +177,7 @@ background-color: #131928;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 40px;
 }
 
 .codecraft {
@@ -186,6 +187,7 @@ background-color: #131928;
     padding: 25px 200px 25px 200px;
     font-family: 'Montserrat', sans-serif;
     line-height: 30px;
+    font-size: 22px;
 }
 
 .mainframestore {
@@ -193,7 +195,6 @@ background-color: #131928;
     justify-content: center;
     padding: 20px 50px 50px 50px;
 }
-
 
 .art {
     display: flex;
@@ -211,9 +212,10 @@ background-color: #131928;
 
 .footpage {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 22px;
     padding: 15px;
     font-weight: normal;
+    width: fit-content;
 }
 
 .artprofile {
