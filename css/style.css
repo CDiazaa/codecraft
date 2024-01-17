@@ -358,6 +358,16 @@ background-color: #131928;
     .innerdisplay {
         transform: translate(-50%,-180%);
     }
+
+    .contenedorvideos {
+        display: block;
+    }
+
+    iframe {
+        width: 820px;
+        height: 320px;
+        padding-left: 200px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -401,7 +411,7 @@ background-color: #131928;
     }
 
     .flexmapa {
-        padding: 0 80px;
+        padding: 0 80px 0 0;
     }
 
 }
