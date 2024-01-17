@@ -389,6 +389,12 @@ background-color: #131928;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
 
+    iframe {
+        width: 670px;
+        height: 320px;
+        padding-left: 100px;
+    }
+
     .flexmapa {
         padding: 0 80px;
     }
@@ -413,6 +419,11 @@ background-color: #131928;
         text-align: center;
     }
 
+    .who {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     .slider {
         padding-left: 50px;
         padding-right: 50px;
@@ -423,9 +434,13 @@ background-color: #131928;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
-    .videos {
-        padding: 10px;
-        margin: 0;
+    iframe {
+        width: 520px;
+        height: 260px;
+        padding-left: 50px;
     }
 
+    .flexmapa {
+        padding: 0 50px 0 0;
+    }
 }
