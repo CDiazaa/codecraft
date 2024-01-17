@@ -357,9 +357,18 @@ background-color: #131928;
 
 @media (max-width: 768px) {
 
+    .innerdisplay {
+        transform: translate(-50%,-125%);
+    }
+
     .codecraft {
         padding-left: 100px;
         padding-right: 100px;
+    }
+
+    .video2 {
+        width: 480px;
+        height: 280px;
     }
 
     .footpage {
@@ -371,10 +380,19 @@ background-color: #131928;
         padding-right: 100px;
     }
 
+    .contenedorvideos {
+        display: block;
+    }
+
     .grids {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
+
+    .flexmapa {
+        padding: 0 80px;
+    }
+
 }
 
 @media (max-width: 576px) {
