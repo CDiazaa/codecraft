@@ -1,9 +1,5 @@
 @media (max-width: 1024px) {
 
-    .innerdisplay {
-        transform: translate(-50%, -180%);
-    }
-
     .contenedorvideos {
         display: block;
     }
@@ -106,5 +102,47 @@
 
     .flexmapa {
         padding: 0 50px 0 0;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .header {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:0 ;
+    }
+
+    .logo{
+        padding-left: 30%;
+        width: 70%;
+    }
+
+    .menu {
+        display: grid;
+    }
+
+    .leading {
+        font-size: 10px;
+    }
+
+    .video2 {
+        width: 360px;
+        height: 200px;
+    }
+
+    iframe {
+        width: 380px;
+        height: 200px;
+        padding-left: 50px;
+    }
+
+    .flexmapa {
+        padding: 0 40px 0 0;
+    }
+
+    .need {
+        transform: scale(.8);
     }
 }

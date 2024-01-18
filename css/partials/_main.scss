@@ -19,6 +19,18 @@
             position: absolute;
             left: 50%;
             transform: translate(-50%, -275%);
+            
+            @media (max-width: 1024px) {
+                    transform: translate(-50%, -180%);
+                }
+
+            @media (max-width: 576px) {
+                    transform: translate(-50%, -125%);
+                }
+
+            @media (max-width: 425px) {
+                transform: translate(-50%, -115%);
+            }
 
             .leading {
                 width: auto;
@@ -30,6 +42,10 @@
                 font-family: 'Rajdhani', sans-serif;
                 font-weight: 700;
                 margin: 0;
+
+                @media (max-width: 425px) {
+                        font-size: 3rem;
+                }
             }
 
             .paragraph {
@@ -41,6 +57,10 @@
                 width: 400px;
                 font-family: 'Rajdhani', sans-serif;
                 font-weight: 400;
+
+                @media (max-width: 425px) {
+                    font-size: 1rem;
+            }
             }
         }
     }
