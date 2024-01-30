@@ -10,40 +10,31 @@ img {
 
 .header {
   background-color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 20px 5%;
+  overflow-x: hidden;
 }
-.header .logo {
-  cursor: pointer;
+.header .bg-body-tertiary {
+  background-color: white !important;
 }
-.header .logo .ilogo {
-  border-radius: 50%;
-  width: auto;
+.header .bg-body-tertiary .container-fluid {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.header .bg-body-tertiary .container-fluid img {
+  max-width: none;
   transition: all 0.3s;
 }
-.header .logo .ilogo:hover {
-  transform: scale(1.1);
+.header .bg-body-tertiary .container-fluid img:hover {
+  transform: scale(1.2);
 }
-.header .menu {
-  text-align: center;
-  padding: 20px;
-}
-.header .menu .ulink {
-  display: inline-block;
-  padding: 0 20px;
-}
-.header .menu .ulink:hover {
-  transform: scale(1.1);
-}
-.header .menu .pagesup {
-  text-decoration: none;
-  color: black;
+.header .bg-body-tertiary .nav-item {
   font-size: 20px;
   font-family: "Poppins";
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.header .menu .pagesup:hover {
+.header .bg-body-tertiary .nav-item .nav-link:hover {
+  transform: scale(1.1);
   color: #ffbc0e;
 }
 

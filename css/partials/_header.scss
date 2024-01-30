@@ -1,46 +1,38 @@
 .header {
     background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px 5%;
+    overflow-x: hidden;
 
-    .logo {
-        cursor: pointer;
+    .bg-body-tertiary {
+        background-color: white !important;
 
-        .ilogo {
-            border-radius: 50%;
-            width: auto;
-            transition: all 0.3s;
+        .container-fluid {
+            max-width: fit-content;
 
-            &:hover {
-                transform: scale(1.1);
-            }
-        }
-    }
+            img {
+                max-width: none;
+                transition: all 0.3s;
 
-    .menu {
-        text-align: center;
-        padding: 20px;
-
-        .ulink {
-            display: inline-block;
-            padding: 0 20px;
-
-            &:hover {
-                transform: scale(1.1);
+                &:hover {
+                    transform: scale(1.2);
+                }
             }
         }
 
-        .pagesup {
-            text-decoration: none;
-            color: black;
+        .nav-item {
             font-size: 20px;
-            font-family: 'Poppins';
+            font-family: "Poppins";
+            padding-left: 20px;
+            padding-right: 20px;
 
-            &:hover {
-                color: #ffbc0e;
+            .nav-link {
+                &:hover {
+                    transform: scale(1.1);
+                    color: #ffbc0e;
+                }
             }
         }
+
     }
+
 }
