@@ -342,8 +342,12 @@ img {
     height: 200px;
     padding-left: 50px;
   }
+  .who {
+    padding: 25px;
+  }
   .flexmapa {
     padding: 0 40px 0 0;
+    display: block;
   }
   .need {
     transform: scale(0.8);
