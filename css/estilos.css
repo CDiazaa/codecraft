@@ -99,6 +99,16 @@ img {
   color: white;
   font-size: 1rem;
 }
+@media (max-width: 425px) {
+  .fhooter .linkfoot {
+    display: grid;
+    text-align: center;
+    padding-bottom: 24px;
+  }
+  .fhooter .linkfoot .vertbar {
+    display: none;
+  }
+}
 .fhooter .linksocial {
   text-decoration: none;
   display: flex;
@@ -139,7 +149,7 @@ img {
 
 .codecraft {
   justify-content: center;
-  text-align: justify;
+  text-align: left;
   max-width: -moz-fit-content;
   max-width: fit-content;
   padding: 25px 200px 25px 200px;
@@ -214,6 +224,7 @@ img {
   display: flex;
   padding: 3rem;
   justify-content: space-around;
+  overflow-x: hidden;
 }
 .infomaps .infomapas-left {
   flex: 1;
