@@ -43,6 +43,7 @@ img {
   margin: auto; /* Center the video container horizontally */
 }
 .video-container video {
+  display: block;
   width: 100%;
 }
 .video-container .overlay-text {
@@ -59,10 +60,20 @@ img {
   font-weight: 700;
   margin: 0;
 }
+@media (max-width: 425px) {
+  .video-container .overlay-text .hache1 {
+    font-size: 3rem;
+  }
+}
 .video-container .overlay-text .paragraph {
   font-size: 22px;
   font-family: "Rajdhani", sans-serif;
   font-weight: 400;
+}
+@media (max-width: 425px) {
+  .video-container .overlay-text .paragraph {
+    font-size: 13px;
+  }
 }
 
 .fhooter {
@@ -236,9 +247,6 @@ img {
 }
 
 @media (max-width: 1024px) {
-  .contenedorvideos {
-    display: block;
-  }
   iframe {
     width: 820px;
     height: 320px;
@@ -249,13 +257,6 @@ img {
   }
 }
 @media (max-width: 768px) {
-  .innerdisplay {
-    transform: translate(-50%, -125%);
-  }
-  .codecraft {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
   .video2 {
     width: 480px;
     height: 280px;
@@ -284,10 +285,6 @@ img {
   }
 }
 @media (max-width: 576px) {
-  .codecraft {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
   .art {
     display: grid;
     padding: 0;
@@ -319,16 +316,6 @@ img {
   }
 }
 @media (max-width: 425px) {
-  .header {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 0;
-  }
-  .logo {
-    padding-left: 30%;
-    width: 70%;
-  }
   .menu {
     display: grid;
   }

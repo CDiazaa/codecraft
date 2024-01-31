@@ -3,6 +3,7 @@
     margin: auto; /* Center the video container horizontally */
 
     video {
+        display: block;
         width: 100%;
     }
 
@@ -19,12 +20,20 @@
             font-family: "Rajdhani", sans-serif;
             font-weight: 700;
             margin: 0;
+
+            @media (max-width: 425px) {
+                font-size: 3rem;
+            }
         }
 
         .paragraph {
             font-size: 22px;
             font-family: "Rajdhani", sans-serif;
             font-weight: 400;
+
+            @media (max-width: 425px) {
+                font-size: 13px;
+            }
         }
     }
 }

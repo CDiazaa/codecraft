@@ -1,8 +1,6 @@
 @media (max-width: 1024px) {
 
-    .contenedorvideos {
-        display: block;
-    }
+   
 
     iframe {
         width: 820px;
@@ -17,14 +15,6 @@
 
 @media (max-width: 768px) {
 
-    .innerdisplay {
-        transform: translate(-50%, -125%);
-    }
-
-    .codecraft {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
 
     .video2 {
         width: 480px;
@@ -63,10 +53,6 @@
 
 @media (max-width: 576px) {
 
-    .codecraft {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
 
     .art {
         display: grid;
@@ -106,18 +92,6 @@
 }
 
 @media (max-width: 425px) {
-
-    .header {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        padding-bottom:0 ;
-    }
-
-    .logo{
-        padding-left: 30%;
-        width: 70%;
-    }
 
     .menu {
         display: grid;
