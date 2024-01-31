@@ -38,72 +38,31 @@ img {
   color: #ffbc0e;
 }
 
-.contvideo {
-  background-color: #131928;
-}
-.contvideo .video {
-  width: 100%;
-}
-.contvideo .updisplay {
+.video-container {
   position: relative;
+  margin: auto; /* Center the video container horizontally */
+}
+.video-container video {
   width: 100%;
-  padding: 0;
-  margin: 0;
-  z-index: 1;
-  color: white;
-  font-size: 20px;
-  align-self: center;
 }
-.contvideo .updisplay .innerdisplay {
+.video-container .overlay-text {
   position: absolute;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -275%);
-}
-@media (max-width: 1024px) {
-  .contvideo .updisplay .innerdisplay {
-    transform: translate(-50%, -180%);
-  }
-}
-@media (max-width: 576px) {
-  .contvideo .updisplay .innerdisplay {
-    transform: translate(-50%, -125%);
-  }
-}
-@media (max-width: 425px) {
-  .contvideo .updisplay .innerdisplay {
-    transform: translate(-50%, -115%);
-  }
-}
-.contvideo .updisplay .innerdisplay .leading {
-  width: auto;
-  padding: 10px;
+  transform: translate(-50%, -50%);
   text-align: center;
-  place-self: center;
-  font-size: 32px;
-  font-size: 5rem;
+  color: #fff; /* Set text color */
+}
+.video-container .overlay-text .hache1 {
+  font-size: 5rem; /* Set your desired font size */
   font-family: "Rajdhani", sans-serif;
   font-weight: 700;
   margin: 0;
 }
-@media (max-width: 425px) {
-  .contvideo .updisplay .innerdisplay .leading {
-    font-size: 3rem;
-  }
-}
-.contvideo .updisplay .innerdisplay .paragraph {
+.video-container .overlay-text .paragraph {
   font-size: 22px;
-  padding: 1rem;
-  text-align: center;
-  place-self: center;
-  justify-content: center;
-  width: 400px;
   font-family: "Rajdhani", sans-serif;
   font-weight: 400;
-}
-@media (max-width: 425px) {
-  .contvideo .updisplay .innerdisplay .paragraph {
-    font-size: 1rem;
-  }
 }
 
 .fhooter {

@@ -1,67 +1,39 @@
-.contvideo {
-    background-color: #131928;
+.video-container {
+    position: relative;
+    margin: auto; /* Center the video container horizontally */
 
-    .video {
+    video {
         width: 100%;
     }
 
-    .updisplay {
-        position: relative;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        z-index: 1;
-        color: white;
-        font-size: 20px;
-        align-self: center;
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff; /* Set text color */
 
-        .innerdisplay {
-            position: absolute;
-            left: 50%;
-            transform: translate(-50%, -275%);
-            
-            @media (max-width: 1024px) {
-                    transform: translate(-50%, -180%);
-                }
+        .hache1 {
+            font-size: 5rem; /* Set your desired font size */
+            font-family: "Rajdhani", sans-serif;
+            font-weight: 700;
+            margin: 0;
+        }
 
-            @media (max-width: 576px) {
-                    transform: translate(-50%, -125%);
-                }
-
-            @media (max-width: 425px) {
-                transform: translate(-50%, -115%);
-            }
-
-            .leading {
-                width: auto;
-                padding: 10px;
-                text-align: center;
-                place-self: center;
-                font-size: 32px;
-                font-size: 5rem;
-                font-family: 'Rajdhani', sans-serif;
-                font-weight: 700;
-                margin: 0;
-
-                @media (max-width: 425px) {
-                        font-size: 3rem;
-                }
-            }
-
-            .paragraph {
-                font-size: 22px;
-                padding: 1rem;
-                text-align: center;
-                place-self: center;
-                justify-content: center;
-                width: 400px;
-                font-family: 'Rajdhani', sans-serif;
-                font-weight: 400;
-
-                @media (max-width: 425px) {
-                    font-size: 1rem;
-            }
-            }
+        .paragraph {
+            font-size: 22px;
+            font-family: "Rajdhani", sans-serif;
+            font-weight: 400;
         }
     }
 }
+
+
+
+
+
+
+
+
+
