@@ -7,6 +7,19 @@
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 50px;
+
+    @media (max-width: 1024px) {
+        display: grid;
+        justify-content: unset;
+        overflow-x: hidden;
+
+        .videos{
+            width: 100%;
+            display: block;
+            }
+    }
+
+    
 }
 
 .grids {

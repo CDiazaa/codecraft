@@ -72,7 +72,7 @@ img {
 }
 @media (max-width: 425px) {
   .video-container .overlay-text .paragraph {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 
@@ -160,16 +160,30 @@ img {
 .codecraft .github {
   color: black;
 }
+@media (max-width: 768px) {
+  .codecraft {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (max-width: 425px) {
+  .codecraft {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
 
 .mainframestore {
   display: flex;
   justify-content: center;
   padding: 20px 50px 50px 50px;
+  overflow-x: hidden;
 }
 
 .art {
   display: flex;
   padding: 1rem;
+  overflow-x: hidden;
 }
 .art .art-left,
 .art .art-right {
@@ -202,6 +216,17 @@ img {
   justify-content: space-evenly;
   align-items: center;
   padding-bottom: 50px;
+}
+@media (max-width: 1024px) {
+  .contenedorvideos {
+    display: grid;
+    justify-content: unset;
+    overflow-x: hidden;
+  }
+  .contenedorvideos .videos {
+    width: 100%;
+    display: block;
+  }
 }
 
 .grids {
@@ -278,9 +303,6 @@ img {
   .slider {
     padding-left: 100px;
     padding-right: 100px;
-  }
-  .contenedorvideos {
-    display: block;
   }
   .grids {
     grid-template-columns: 1fr 1fr;

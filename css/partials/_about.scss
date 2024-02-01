@@ -23,10 +23,21 @@
     .github {
         color: black;
     }
+
+    @media(max-width: 768px) {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    @media(max-width: 425px) {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 .mainframestore {
     display: flex;
     justify-content: center;
     padding: 20px 50px 50px 50px;
+    overflow-x: hidden;
 }
